@@ -1,26 +1,39 @@
-body{
-    
+body {
+
     font-size: 2em;
     background-color: #333;
 }
-.container{
+
+.container {
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
-.sidebar{
+
+.sidebar {
     grid-row: span 2;
     display: grid;
     gap: 1em;
     padding: 2%;
 }
-#sidebarHeader{
-    display: flex;
-    align-items: center;
-    justify-content: stretch;
+
+.imgContainer.dashboard {
     font-size: 1.2em;
     height: 3em;
+    gap: 2%;
 }
-#dashboard{
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+}
+
+.nav .imgContainer {
+    font-size: 1em;
+    height: 2em;
+    gap: 2%;
+}
+
+.img {
     align-items: end;
     height: 50%;
 }
