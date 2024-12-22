@@ -1,12 +1,12 @@
 body {
-
-    font-size: 2em;
     background-color: #333;
+    margin: 0px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: 20vh 80vh;
 }
 
 .sidebar {
@@ -14,10 +14,11 @@ body {
     display: grid;
     gap: 1em;
     padding: 2%;
+    background-color: #818cf8;
 }
 
 .imgContainer.dashboard {
-    font-size: 1.2em;
+    font-size: 2.5em;
     height: 3em;
     gap: 2%;
 }
@@ -28,12 +29,35 @@ body {
 }
 
 .nav .imgContainer {
-    font-size: 1em;
-    height: 2em;
-    gap: 2%;
+    font-size: 1.7em;
+    height: 1.7em;
+    gap: 3%;
 }
 
 .img {
     align-items: end;
     height: 50%;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+.headerEle{
+    height: 4em;
+}
+.main{
+    background-color: #e5e7eb;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.projects{
+    grid-row: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+#yourProjects{
+    grid-column: span 2;
 }
